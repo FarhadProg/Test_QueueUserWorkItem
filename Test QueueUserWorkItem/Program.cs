@@ -23,7 +23,6 @@ namespace Test_QueueUserWorkItem
                 }
                     
                 WaitHandle.WaitAll(doneEvents);
-                //Console.WriteLine("All calculations are complete.");
                 Console.WriteLine("Логирование {0} потоков завершено", numberOfThreads);
                 Console.ReadLine();
 
